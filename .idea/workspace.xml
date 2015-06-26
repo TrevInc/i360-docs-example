@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9f3b652-ab8d-4640-abfd-19d3cf590c1f" name="Default" comment="" />
+    <list default="true" id="c9f3b652-ab8d-4640-abfd-19d3cf590c1f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-26-put-blastemail.md" afterPath="$PROJECT_DIR$/_posts/2015-06-26-put-blastemail.md" />
+    </list>
     <ignored path="i360-docs-example.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="put-contact.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="put-contact.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_pages/put-contact.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23632993" vertical-offset="0" max-vertical-offset="1079">
+            <state vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="705">
               <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="put-blastemail.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="put-blastemail.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_pages/put-blastemail.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="420">
-              <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+            <state vertical-scroll-proportion="0.23632993" vertical-offset="0" max-vertical-offset="1079">
+              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -58,8 +60,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_pages/put-blastemail.md" />
         <option value="$PROJECT_DIR$/_pages/put-contact.md" />
+        <option value="$PROJECT_DIR$/_pages/put-blastemail.md" />
       </list>
     </option>
   </component>
@@ -487,18 +489,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/put-blastemail.md">
+    <entry file="file://$PROJECT_DIR$/_pages/put-contact.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="420">
-          <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+        <state vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="705">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/put-contact.md">
+    <entry file="file://$PROJECT_DIR$/_pages/put-blastemail.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23632993" vertical-offset="0" max-vertical-offset="1079">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
           <folding />
         </state>
       </provider>
