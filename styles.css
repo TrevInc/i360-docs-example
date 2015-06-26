@@ -1,7 +1,10 @@
 @import url('//fonts.googleapis.com/css?family=Lobster|Cabin:400,700');
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Lobster", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
 }
 
 th{
