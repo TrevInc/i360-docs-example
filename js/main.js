@@ -11,7 +11,7 @@ $(document).ready(function(){
     $('.language-ruby').parent().parent().hide();
 
     //  On click, show the container and hide the currently active one
-    $('nav-tabs').find('li').find('a').on('click',function(){
-        alert( $(this).class() );
+    $('.nav-tabs li').on('click',function(){
+        alert( $(this).find('a').attr('class') );
     });
 });
