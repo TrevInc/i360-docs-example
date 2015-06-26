@@ -7,7 +7,8 @@ date: 2015-06-26 12:31:54
 
 ### Overview
 
-This method adds a contact. It receives in the `PUT` request a `ContactImportRequest` object, which contains a collection of `Contact` objects.
+This method adds a contact. It receives in the PUT request a
+ContactImportRequest object, which contains a collection of Contact objects.
 
 ---
 #### ContactImportRequest
@@ -15,7 +16,7 @@ This method adds a contact. It receives in the `PUT` request a `ContactImportReq
 
 | Name  	| Description  	| Type  	| Additional Info  	|
 |---	|---	|---	|---	|
-| Contacts  	| The contacts to import.  	| Collection of Contact  	| None  	|
+| Contacts  	| The contacts to import  	| Collection of Contact  	| None  	|
 | EmailNotification  	| Whether an email should be sent to the user on completion of import.  	| Boolean  	| None  	|
 | ApiNotification	  	| Whether an API user notification should be sent on completion of import.	| Boolean  	| None  	|
 | CallbackUrl  	| If ApiNotification is true, the address to POST the Import object to.  	| String  	| None  	|
@@ -28,7 +29,14 @@ This method adds a contact. It receives in the `PUT` request a `ContactImportReq
 ---
 #### PHP
 ---
-{% highlight php %}
+  <ul class='tabs' data-tabs='tabs'>
+    <li><a href="/">JavaScript</a></li>
+    <li class='active'><a href="/">PHP</a></li>
+    <li><a href="/">C#.NET</a></li>
+    <li><a href="/">Ruby on Rails</a></li>
+  </ul>
+---
+```php
 $url = 'https://test-api.i-360.com/1.1/signalr';
 
 $authString = base64_encode(userId + ':');
@@ -38,4 +46,4 @@ $request->setRawPostData($json);
 $request->addQueryData(array('auth' => $authString))
 $request->send();
 $response = $request->getResponseBody();
-{% endhighlight %}
+
