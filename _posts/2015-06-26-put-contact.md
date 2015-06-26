@@ -12,7 +12,7 @@ ContactImportRequest object, which contains a collection of Contact objects.
 
 ---
 #### ContactImportRequest
----
+
 
 | Name  	| Description  	| Type  	| Additional Info  	|
 |---	|---	|---	|---	|
@@ -26,7 +26,7 @@ ContactImportRequest object, which contains a collection of Contact objects.
 ### Example
 
 
----
+
 <div class="container-fluid">
   <ul class='nav nav-tabs' data-tabs='tabs'>
     <li><a class="js">JavaScript</a></li>
