@@ -29,12 +29,14 @@ ContactImportRequest object, which contains a collection of Contact objects.
 ---
 #### PHP
 ---
+<div class="container-fluid">
   <ul class='tabs' data-tabs='tabs'>
     <li><a href="/">JavaScript</a></li>
     <li class='active'><a href="/">PHP</a></li>
     <li><a href="/">C#.NET</a></li>
     <li><a href="/">Ruby on Rails</a></li>
   </ul>
+</div>
 ---
 ```php
 $url = 'https://test-api.i-360.com/1.1/signalr';
@@ -46,4 +48,4 @@ $request->setRawPostData($json);
 $request->addQueryData(array('auth' => $authString))
 $request->send();
 $response = $request->getResponseBody();
-
+```
