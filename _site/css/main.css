@@ -78,19 +78,5 @@ body.rtl ul, body.rtl ol {
     margin: 0 25px 10px 0;
 }
 
-th {
-    padding: 10px;
-    border: 1px solid black;
-    background: #bbb;
-}
-
-td {
-    padding: 10px;
-    border: 1px solid black;
-}
-
-tr:nth-child(even) td {
-    background: #f2f2f2;
-}
 
 /* Make sure this goes up */
