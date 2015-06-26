@@ -23,8 +23,14 @@ This method adds blast email statistics for a specific campaign. It receives in 
 
 
 ---
-#### PHP
----
+<div class="container-fluid">
+  <ul class='nav nav-tabs' data-tabs='tabs'>
+    <li><a href="/i360-docs-example">JavaScript</a></li>
+    <li class='active'><a href="/i360-docs-example">PHP</a></li>
+    <li><a href="/i360-docs-example">C#.NET</a></li>
+    <li><a href="/i360-docs-example">Ruby on Rails</a></li>
+  </ul>
+</div>
 {% highlight php %}
 <?php
 $url = 'https://test-api.i-360.com/1.1/signalr';
