@@ -26,8 +26,8 @@ $(document).ready(function(){
         select  = linkClassToCodeClass(select);
 
         //  Change the visible code
-        $('code[class="'+current+'"]').parent().parent().stop().hide(250,function(){
-            $('code[class="'+select+'"]').parent().parent().stop().show(250);
+        $('code[class="'+current+'"]').parent().parent().stop().fadeOut(250,function(){
+            $('code[class="'+select+'"]').parent().parent().stop().fadeIn(250);
         });
     });
 
