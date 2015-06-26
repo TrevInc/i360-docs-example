@@ -20,7 +20,7 @@ ContactImportRequest object, which contains a collection of Contact objects.
 | EmailNotification  	| Whether an email should be sent to the user on completion of import.  	| Boolean  	| None  	|
 | ApiNotification	  	| Whether an API user notification should be sent on completion of import.	| Boolean  	| None  	|
 | CallbackUrl  	| If ApiNotification is true, the address to POST the Import object to.  	| String  	| None  	|
-  
+
 ---
 
 ### Example
