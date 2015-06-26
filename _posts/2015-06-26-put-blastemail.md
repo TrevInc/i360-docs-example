@@ -25,10 +25,10 @@ This method adds blast email statistics for a specific campaign. It receives in 
 ---
 <div class="container-fluid">
   <ul class='nav nav-tabs' data-tabs='tabs'>
-    <li><a href="/i360-docs-example">JavaScript</a></li>
-    <li class='active'><a href="/i360-docs-example">PHP</a></li>
-    <li><a href="/i360-docs-example">C#.NET</a></li>
-    <li><a href="/i360-docs-example">Ruby on Rails</a></li>
+    <li><a class="js">JavaScript</a></li>
+    <li class='active'><a class="php>PHP</a></li>
+    <li><a class="cs">C#.NET</a></li>
+    <li><a class="ror">Ruby on Rails</a></li>
   </ul>
 </div>
 {% highlight php %}
