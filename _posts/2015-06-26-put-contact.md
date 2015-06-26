@@ -27,8 +27,6 @@ ContactImportRequest object, which contains a collection of Contact objects.
 
 
 ---
-#### PHP
----
 <div class="container-fluid">
   <ul class='nav nav-tabs' data-tabs='tabs'>
     <li><a href="/">JavaScript</a></li>
