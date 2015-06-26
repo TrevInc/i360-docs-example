@@ -27,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="put-contact.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="put-contact.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_pages/put-contact.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="705">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.41705284" vertical-offset="0" max-vertical-offset="1079">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="put-blastemail.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="put-blastemail.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_pages/put-blastemail.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5282669" vertical-offset="0" max-vertical-offset="1079">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.2" vertical-offset="0" max-vertical-offset="645">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -60,8 +60,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_pages/put-contact.md" />
         <option value="$PROJECT_DIR$/_pages/put-blastemail.md" />
+        <option value="$PROJECT_DIR$/_pages/put-contact.md" />
       </list>
     </option>
   </component>
@@ -489,18 +489,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/put-contact.md">
+    <entry file="file://$PROJECT_DIR$/_pages/put-blastemail.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="705">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="-16.2" vertical-offset="0" max-vertical-offset="645">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_pages/put-blastemail.md">
+    <entry file="file://$PROJECT_DIR$/_pages/put-contact.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5282669" vertical-offset="0" max-vertical-offset="1079">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.41705284" vertical-offset="0" max-vertical-offset="1079">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -28,7 +28,7 @@ This method adds a contact. It receives in the `PUT` request a `ContactImportReq
 ---
 #### PHP
 ---
-```php
+{% highlight php %}
 $url = 'https://test-api.i-360.com/1.1/signalr';
 
 $authString = base64_encode(userId + ':');
@@ -38,4 +38,4 @@ $request->setRawPostData($json);
 $request->addQueryData(array('auth' => $authString))
 $request->send();
 $response = $request->getResponseBody();
-
+{% endhighlight %}
