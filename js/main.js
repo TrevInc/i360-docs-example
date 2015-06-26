@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+    //  Hide all preprocessor PHP crap
+    $('.language-php').find('.cp').hide();
+
     var current = 'php';
 
     //  Hide all code elements except for PHP
