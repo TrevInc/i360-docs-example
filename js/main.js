@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('.language-ruby').parent().parent().hide();
 
     //  On click, show the container and hide the currently active one
-    $('nav-tabs').find('a').on('click',function(){
+    $('nav-tabs').find('li').find('a').on('click',function(){
         alert( $(this).class() );
     });
 });
