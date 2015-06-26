@@ -138,6 +138,7 @@ ContactImportRequest object, which contains a collection of Contact objects.</p>
     <li><a href="/i360-docs-example">Ruby on Rails</a></li>
   </ul>
 </div>
+
 <div class="highlight"><pre><code class="language-php" data-lang="php"><span class="x">$url = &#39;https://test-api.i-360.com/1.1/signalr&#39;;</span>
 
 <span class="x">$authString = base64_encode(userId + &#39;:&#39;);</span>
@@ -146,8 +147,8 @@ ContactImportRequest object, which contains a collection of Contact objects.</p>
 <span class="x">$request-&gt;setRawPostData($json);</span>
 <span class="x">$request-&gt;addQueryData(array(&#39;auth&#39; =&gt; $authString))</span>
 <span class="x">$request-&gt;send();</span>
-<span class="x">$response = $request-&gt;getResponseBody();</span>
-</code></pre></div>
+<span class="x">$response = $request-&gt;getResponseBody();</span></code></pre></div>
+
 
                     </div>
                 
