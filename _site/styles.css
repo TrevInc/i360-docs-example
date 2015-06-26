@@ -1,0 +1,42 @@
+@import url('//fonts.googleapis.com/css?family=Lobster|Cabin:400,700');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+th{
+    border: 1px solid black;
+    background: #bbb;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(even) td {
+    background: #f2f2f2;
+}
+
+body {
+    background-color: #0088cc;
+    background-image: url(//i-360.com/wp-content/themes/GG-Theme/img/headerback.jpg);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+body > .container {
+    background: white;
+    padding: 15px 30px;
+}
+
+.logo-top {
+    font-size: 0px;
+    background-image: url(//www.i-360.com/wp-content/themes/GG-Theme/img/logo.png);
+    height: 62px;
+    width: 136px;
+}
