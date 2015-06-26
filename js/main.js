@@ -12,6 +12,18 @@ $(document).ready(function(){
 
     //  On click, show the container and hide the currently active one
     $('.nav-tabs li').on('click',function(){
-        alert( $(this).find('a').attr('class') );
+        //  Get the name of the class to target
+        var c = $(this).find('a').attr('class');
+        if( c==current )
+            return;
+
+        //  Change the selector
+        $(currrent).parent().removeClass('active');
+        $(c).parent().addClass('active');
+
+
+
+        //  Save new current
+        current = c;
     });
 });
