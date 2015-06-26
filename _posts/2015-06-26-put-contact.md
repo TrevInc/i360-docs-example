@@ -36,6 +36,7 @@ ContactImportRequest object, which contains a collection of Contact objects.
   </ul>
 </div>
 {% highlight php %}
+<?php
 $url = 'https://test-api.i-360.com/1.1/signalr';
 
 $authString = base64_encode(userId + ':');
@@ -45,4 +46,5 @@ $request->setRawPostData($json);
 $request->addQueryData(array('auth' => $authString))
 $request->send();
 $response = $request->getResponseBody();
+?>
 {% endhighlight %}
