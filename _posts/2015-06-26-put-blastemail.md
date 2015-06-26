@@ -44,3 +44,24 @@ $request->send();
 $response = $request->getResponseBody();
 ?>
 {% endhighlight %}
+{% highlight javascript %}
+$(document).ready(function(){
+    echo 'Hello World!';
+});
+{% endhighlight %}
+{% highlight c# %}
+public class HelloWorld
+{
+    public static void Main()
+    {
+        System.Console.WriteLine("Hello World!");
+    }
+}
+{% endhighlight %}
+{% highlight ruby %}
+class PagesController < ApplicationController
+    def home
+        puts 'Hello World!'
+    end
+end
+{% endhighlight %}
