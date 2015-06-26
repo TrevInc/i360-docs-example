@@ -81,7 +81,8 @@
 
 <h3 id="overview">Overview</h3>
 
-<p>This method adds a contact. It receives in the <code>PUT</code> request a <code>ContactImportRequest</code> object, which contains a collection of <code>Contact</code> objects.</p>
+<p>This method adds a contact. It receives in the PUT request a
+ContactImportRequest object, which contains a collection of Contact objects.</p>
 
 <hr>
 
@@ -99,7 +100,7 @@
 </thead><tbody>
 <tr>
 <td>Contacts</td>
-<td>The contacts to import.</td>
+<td>The contacts to import</td>
 <td>Collection of Contact</td>
 <td>None</td>
 </tr>
@@ -129,20 +130,24 @@
 
 <hr>
 
-<h4 id="php">PHP</h4>
+<div class="container-fluid">
+  <ul class='nav nav-tabs' data-tabs='tabs'>
+    <li><a href="/i360-docs-example">JavaScript</a></li>
+    <li class='active'><a href="/i360-docs-example">PHP</a></li>
+    <li><a href="/i360-docs-example">C#.NET</a></li>
+    <li><a href="/i360-docs-example">Ruby on Rails</a></li>
+  </ul>
+</div>
+<div class="highlight"><pre><code class="language-php" data-lang="php">$url = &#39;https://test-api.i-360.com/1.1/signalr&#39;;
 
-<hr>
+$authString = base64_encode(userId + &#39;:&#39;);
 
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="x">$url = &#39;https://test-api.i-360.com/1.1/signalr&#39;;</span>
-
-<span class="x">$authString = base64_encode(userId + &#39;:&#39;);</span>
-
-<span class="x">$request = new HTTPRequest($url, HTTP_METH_PUT);</span>
-<span class="x">$request-&gt;setRawPostData($json);</span>
-<span class="x">$request-&gt;addQueryData(array(&#39;auth&#39; =&gt; $authString))</span>
-<span class="x">$request-&gt;send();</span>
-<span class="x">$response = $request-&gt;getResponseBody();</span></code></pre></div>
-
+$request = new HTTPRequest($url, HTTP_METH_PUT);
+$request-&gt;setRawPostData($json);
+$request-&gt;addQueryData(array(&#39;auth&#39; =&gt; $authString))
+$request-&gt;send();
+$response = $request-&gt;getResponseBody();
+</code></pre></div>
 
                     </div>
                 
