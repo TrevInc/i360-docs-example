@@ -27,7 +27,12 @@ $(document).ready(function(){
 
         //  Change the visible code
         $('code[class="'+current+'"]').parent().parent().stop().fadeOut(250,function(){
-            $('code[class="'+select+'"]').parent().parent().stop().fadeIn(250);
+            $('code[class="'+select+'"]').parent().parent().stop().fadeIn(250,function(){
+                //  Scroll to code
+                $('html, body').animate({
+                    scrollTop: $("#example").offset().top
+                }, 250);
+            });
         });
     });
 
