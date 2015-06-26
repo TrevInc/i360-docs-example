@@ -1,0 +1,14 @@
+th{
+    border: 1px solid black;
+    background: #bbb;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(even) td {
+    background: #f2f2f2;
+}
