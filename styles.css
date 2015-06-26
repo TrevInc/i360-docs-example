@@ -21,9 +21,18 @@ tr:nth-child(even) td {
 
 body {
     background-color: #0088cc;
+    background-image: url(//i-360.com/wp-content/themes/GG-Theme/img/headerback.jpg);
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body > .container {
     background: white;
     padding: 15px 30px;
+}
+
+.logo-top {
+    font-size: 0px;
+    background-image: url(//www.i-360.com/wp-content/themes/GG-Theme/img/logo.png);
+    height: 62px;
+    width: 136px;
 }
