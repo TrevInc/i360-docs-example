@@ -57,6 +57,10 @@ code {
     padding-right: 0;
 }
 
+.nav-tabs a {
+    cursor: pointer;
+}
+
 body.rtl {
 	direction: rtl;
 }
