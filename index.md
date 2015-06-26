@@ -10,6 +10,7 @@ This website contains helpful information and code samples for making the best u
 Code samples will be presented with the following formatting:
 
 ```php
+<?php
 $url = 'https://test-api.i-360.com/1.1/signalr';
 
 $authString = base64_encode(userId + ':');
@@ -19,6 +20,7 @@ $request->setRawPostData($json);
 $request->addQueryData(array('auth' => $authString))
 $request->send();
 $response = $request->getResponseBody();
+?>
 ```
 
 #### Tutorials

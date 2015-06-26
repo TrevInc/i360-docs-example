@@ -15,7 +15,7 @@ This method adds blast email statistics for a specific campaign. It receives in 
 
 | Name  	| Description  	| Type  	| Additional Info  	|
 |---	|---	|---	|---	|
-| BlastCampaigns | | | Collection of `BlastCampaign` | None |
+| BlastCampaigns | | Collection of `BlastCampaign` | None |
 
 ---
 

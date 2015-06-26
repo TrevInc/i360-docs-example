@@ -23,6 +23,7 @@
                 <div id=header class=span12>
                     <h4><div class="logo-top"><a class=brand href="/i360-docs-example/">i-360 API</a></div>
     <small>Painless documentation for your projects</small>
+    <div class="pull-right"><input type="search" name="search-me" placeholder="Search..."></div>
 </h4>
 
 
@@ -81,15 +82,17 @@
 <p>This website contains helpful information and code samples for making the best use of the i-360 API.</p>
 
 <p>Code samples will be presented with the following formatting:</p>
-<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="x">$url = &#39;https://test-api.i-360.com/1.1/signalr&#39;;</span>
+<div class="highlight"><pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
+<span class="nv">$url</span> <span class="o">=</span> <span class="s1">&#39;https://test-api.i-360.com/1.1/signalr&#39;</span><span class="p">;</span>
 
-<span class="x">$authString = base64_encode(userId + &#39;:&#39;);</span>
+<span class="nv">$authString</span> <span class="o">=</span> <span class="nb">base64_encode</span><span class="p">(</span><span class="nx">userId</span> <span class="o">+</span> <span class="s1">&#39;:&#39;</span><span class="p">);</span>
 
-<span class="x">$request = new HTTPRequest($url, HTTP_METH_PUT);</span>
-<span class="x">$request-&gt;setRawPostData($json);</span>
-<span class="x">$request-&gt;addQueryData(array(&#39;auth&#39; =&gt; $authString))</span>
-<span class="x">$request-&gt;send();</span>
-<span class="x">$response = $request-&gt;getResponseBody();</span>
+<span class="nv">$request</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">HTTPRequest</span><span class="p">(</span><span class="nv">$url</span><span class="p">,</span> <span class="nx">HTTP_METH_PUT</span><span class="p">);</span>
+<span class="nv">$request</span><span class="o">-&gt;</span><span class="na">setRawPostData</span><span class="p">(</span><span class="nv">$json</span><span class="p">);</span>
+<span class="nv">$request</span><span class="o">-&gt;</span><span class="na">addQueryData</span><span class="p">(</span><span class="k">array</span><span class="p">(</span><span class="s1">&#39;auth&#39;</span> <span class="o">=&gt;</span> <span class="nv">$authString</span><span class="p">))</span>
+<span class="nv">$request</span><span class="o">-&gt;</span><span class="na">send</span><span class="p">();</span>
+<span class="nv">$response</span> <span class="o">=</span> <span class="nv">$request</span><span class="o">-&gt;</span><span class="na">getResponseBody</span><span class="p">();</span>
+<span class="cp">?&gt;</span><span class="x"></span>
 </code></pre></div>
 <h4 id="tutorials">Tutorials</h4>
 
