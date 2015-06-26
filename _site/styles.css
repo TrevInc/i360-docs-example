@@ -18,3 +18,12 @@ td {
 tr:nth-child(even) td {
     background: #f2f2f2;
 }
+
+body {
+    background-color: #0088cc;
+}
+
+body > .container {
+    background: white;
+    padding: 15px 30px;
+}
