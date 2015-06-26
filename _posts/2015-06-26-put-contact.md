@@ -12,7 +12,7 @@ ContactImportRequest object, which contains a collection of Contact objects.
 
 ---
 #### ContactImportRequest
-
+<br><br>
 
 | Name  	| Description  	| Type  	| Additional Info  	|
 |---	|---	|---	|---	|
