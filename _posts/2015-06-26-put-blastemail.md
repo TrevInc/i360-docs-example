@@ -26,7 +26,7 @@ This method adds blast email statistics for a specific campaign. It receives in 
 <div class="container-fluid">
   <ul class='nav nav-tabs' data-tabs='tabs'>
     <li><a class="js">JavaScript</a></li>
-    <li class='active'><a class="php>PHP</a></li>
+    <li class='active'><a class="php">PHP</a></li>
     <li><a class="cs">C#.NET</a></li>
     <li><a class="ror">Ruby on Rails</a></li>
   </ul>
