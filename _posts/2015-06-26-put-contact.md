@@ -12,6 +12,7 @@ ContactImportRequest object, which contains a collection of Contact objects.
 
 ---
 #### ContactImportRequest
+---
 
 | Name  	| Description  	| Type  	| Additional Info  	|
 |---	|---	|---	|---	|
@@ -24,15 +25,18 @@ ContactImportRequest object, which contains a collection of Contact objects.
 
 ### Example
 
+
+---
 <div class="container-fluid">
   <ul class='nav nav-tabs' data-tabs='tabs'>
-    <li><a href="/i360-docs-example">JavaScript</a></li>
-    <li class='active'><a href="/i360-docs-example">PHP</a></li>
-    <li><a href="/i360-docs-example">C#.NET</a></li>
-    <li><a href="/i360-docs-example">Ruby on Rails</a></li>
+    <li><a class='js'>JavaScript</a></li>
+    <li class='active'><a class='php'>PHP</a></li>
+    <li><a class='cs'>C#.NET</a></li>
+    <li><a class='ror'>Ruby on Rails</a></li>
   </ul>
 </div>
-```php
+{% highlight php %}
+<?php
 $url = 'https://test-api.i-360.com/1.1/signalr';
 
 $authString = base64_encode(userId + ':');
@@ -42,4 +46,26 @@ $request->setRawPostData($json);
 $request->addQueryData(array('auth' => $authString))
 $request->send();
 $response = $request->getResponseBody();
-```
+?>
+{% endhighlight %}
+{% highlight javascript %}
+$(document).ready(function(){
+    echo 'Hello World!';
+});
+{% endhighlight %}
+{% highlight c# %}
+public class HelloWorld
+{
+    public static void Main()
+    {
+        System.Console.WriteLine("Hello World!");
+    }
+}
+{% endhighlight %}
+{% highlight ruby %}
+class PagesController < ApplicationController
+    def home
+        puts 'Hello World!'
+    end
+end
+{% endhighlight %}
