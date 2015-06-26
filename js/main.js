@@ -12,7 +12,7 @@ $(document).ready(function(){
     $('.nav-tabs li').on('click',function(){
         //  Get the name of the class to target
         var c = $(this).find('a').attr('class');
-        var current = $('active').find('a').attr('class');
+        var current = $('.active').find('a').attr('class');
 
         if( c==current )
             return;
