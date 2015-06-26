@@ -37,7 +37,6 @@ ContactImportRequest object, which contains a collection of Contact objects.
     <li><a href="/">Ruby on Rails</a></li>
   </ul>
 </div>
----
 ```php
 $url = 'https://test-api.i-360.com/1.1/signalr';
 
