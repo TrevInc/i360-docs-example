@@ -29,10 +29,10 @@ ContactImportRequest object, which contains a collection of Contact objects.
 ---
 <div class="container-fluid">
   <ul class='nav nav-tabs' data-tabs='tabs'>
-    <li><a href="/">JavaScript</a></li>
-    <li class='active'><a href="/">PHP</a></li>
-    <li><a href="/">C#.NET</a></li>
-    <li><a href="/">Ruby on Rails</a></li>
+    <li><a href="/i360-docs-example">JavaScript</a></li>
+    <li class='active'><a href="/i360-docs-example">PHP</a></li>
+    <li><a href="/i360-docs-example">C#.NET</a></li>
+    <li><a href="/i360-docs-example">Ruby on Rails</a></li>
   </ul>
 </div>
 ```php
