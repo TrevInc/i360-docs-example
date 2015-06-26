@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     //  Hide all code elements except for PHP
     $('.language-javascript').parent().parent().hide();
-    $('.language\\#').parent().parent().hide();
+    $('code[class="language-c#"]').parent().parent().hide();
     $('.language-ruby').parent().parent().hide();
 
     //  On click, show the container and hide the currently active one
