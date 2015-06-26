@@ -34,7 +34,7 @@ baseurl: '/i360-docs-example'
 permalink: none
 
 # Syntax highlighting
-highlighter: redcarpet
+highlighter: rouge
 
 # Since these are pages, it doesn't really matter
 future: true

@@ -115,13 +115,13 @@
 
 <hr>
 
-<div class="highlight"><pre><code class="language-php" data-lang="php">$url = &#39;https://test-api.i-360.com/1.1/signalr&#39;;
+<div class="highlight"><pre><code class="language-php" data-lang="php">$url = 'https://test-api.i-360.com/1.1/signalr';
 
-$authString = base64_encode(userId + &#39;:&#39;);
+$authString = base64_encode(userId + ':');
 
 $request = new HTTPRequest($url, HTTP_METH_PUT);
 $request-&gt;setRawPostData($json);
-$request-&gt;addQueryData(array(&#39;auth&#39; =&gt; $authString))
+$request-&gt;addQueryData(array('auth' =&gt; $authString))
 $request-&gt;send();
 $response = $request-&gt;getResponseBody();</code></pre></div>
 
