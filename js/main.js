@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     //  Hide all preprocessor PHP crap
     $('.language-php').find('.cp').hide();
-    
+
     //  Hide all code elements except for PHP
     $('.language-javascript').parent().parent().hide();
     $('code[class="language-c#"]').parent().parent().hide();
@@ -18,7 +18,7 @@ $(document).ready(function(){
             return;
 
         //  Change the selector
-        $(currrent).parent().removeClass('active');
+        $(current).parent().removeClass('active');
         $(c).parent().addClass('active');
 
 
