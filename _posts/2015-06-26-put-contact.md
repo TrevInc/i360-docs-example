@@ -30,7 +30,7 @@ ContactImportRequest object, which contains a collection of Contact objects.
 #### PHP
 ---
 <div class="container-fluid">
-  <ul class='tabs' data-tabs='tabs'>
+  <ul class='nav nav-tabs' data-tabs='tabs'>
     <li><a href="/">JavaScript</a></li>
     <li class='active'><a href="/">PHP</a></li>
     <li><a href="/">C#.NET</a></li>
