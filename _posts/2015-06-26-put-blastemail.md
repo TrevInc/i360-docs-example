@@ -26,6 +26,7 @@ This method adds blast email statistics for a specific campaign. It receives in 
 #### PHP
 ---
 {% highlight php %}
+<?php
 $url = 'https://test-api.i-360.com/1.1/signalr';
 
 $authString = base64_encode(userId + ':');
@@ -35,4 +36,5 @@ $request->setRawPostData($json);
 $request->addQueryData(array('auth' => $authString))
 $request->send();
 $response = $request->getResponseBody();
+?>
 {% endhighlight %}
