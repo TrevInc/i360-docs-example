@@ -4,9 +4,9 @@ $(document).ready(function(){
     $('.language-php').find('.cp').hide();
 
     //  Hide all code elements except for PHP
-    $('.language-javascript').parent().parent().hide();
+    $('code[class="language-javascript"]').parent().parent().hide();
     $('code[class="language-c#"]').parent().parent().hide();
-    $('.language-ruby').parent().parent().hide();
+    $('code[class="language-ruby"]').parent().parent().hide();
 
     //  On click, show the container and hide the currently active one
     $('.nav-tabs li').on('click',function(){
@@ -18,12 +18,7 @@ $(document).ready(function(){
             return;
 
         //  Change the selector
-        $(current).parent().removeClass('active');
-        $(c).parent().addClass('active');
-
-
-
-        //  Save new current
-        current = c;
+        $('.'+current).parent().removeClass('active');
+        $('.'+c).parent().addClass('active');
     });
 });
